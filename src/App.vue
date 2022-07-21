@@ -1,12 +1,18 @@
 <template>
-  <div >
-  <title>"La mia prima app con Vue CLI!"</title>
-  </div>
+<div>
+  <MyTitle />
+
+</div>
+
 </template>
 
 <script>
-export default{
-  name
+import MyTitle from "./components/MyTitle.vue";
+export default {
+  name:"App",
+  components: {
+    MyTitle,
+  },
 }
 </script>
 

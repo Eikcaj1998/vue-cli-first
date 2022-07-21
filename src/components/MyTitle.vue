@@ -1,13 +1,13 @@
 <template>
-  <div >
-  <title>"La mia prima app con Vue CLI!"</title>
-  </div>
+  <header>
+  <h1>"La mia prima app con Vue CLI!"</h1>
+  </header>
 </template>
 
 <script>
-export default{
-  name:"MyTitle",
-}
+export default {
+  name: "MyTitle",
+};
 </script>
 
 <style>
